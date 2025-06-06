@@ -5,40 +5,139 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <link rel="stylesheet" href="style.css">
 <title>Meu portfólio</title>
 </head>
 
 <body>
 <header class="container text-center">
-<img src="img/IMG_4678.jpeg" alt="avatar da Ana" class="rounded-circle" width="150" height="150" srcset="">
-<p class="lead">Eu sou Ana Diniz </p>
-<h1>Eu estudo linguagens computacionais</h1>
-<p>Sou estudante. Faço projetos de programação. Veja os projetos
-que já fiz!</p>
+<img src="img/avatar-perfil.png" alt="avatar da Ana Clara" class="rounded-circle" width="150" height="150"
+srcset="">
+<p class="lead">Eu sou Ana Clara Diniz_</p>
+<h1>Eu amo Stranger Things, cachorros e coisas engraçadas</h1>
+<p>Sou apaixonada por séries, especialmente Stranger Things, adoro cachorros e sempre busco o lado divertido da vida. Compartilho conteúdos engraçados e curiosidades sobre minhas paixões!</p>
 <p>Minhas habilidades</p>
 <div>
-<p class="badge bg-secondary">HTML</p>
-<p class="badge bg-secondary">CSS</p>
-<p class="badge bg-secondary">JavaScript</p>
-<p class="badge bg-secondary">Scratch</p>
+<p class="badge bg-secondary">Séries</p>
+<p class="badge bg-secondary">Cuidados com cachorros</p>
+<p class="badge bg-secondary">Humor</p>
+<p class="badge bg-secondary">Criatividade</p>
 </div>
 </header>
-<main class="container">
+<main class="container mt-5">
 <h2>Meus projetos</h2>
 <div class="row">
+<!-- Projeto 1 -->
 <div class="col-md-4">
-<div class="card" style="width: 18rem;">
-<img src="..." class="card-img-top" alt="...">
+<div class="card">
+<img src="img/projeto1.jpeg" class="card-img-top" alt="Imagem do projeto sobre Stranger Things">
 <div class="card-body">
-<h5 class="card-title">Card title</h5>
-<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-<a href="#" class="btn btn-primary">Go somewhere</a>
+<h5 class="card-title">Explorando Stranger Things: Guia Interativo da Série</h5>
+<p class="card-text">Um site interativo que apresenta personagens, curiosidades e teorias sobre a série Stranger Things. Ideal para fãs que querem se aprofundar no universo de Hawkins.</p>
+<button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja o projeto</button>
+</div>
+</div>
+</div>
+<!-- Projeto 2 -->
+<div class="col-md-4">
+<div class="card">
+<img src="img/projeto2.jpeg" class="card-img-top" alt="Imagem do projeto sobre cachorros">
+<div class="card-body">
+<h5 class="card-title">Cuidados e Curiosidades sobre Cachorros</h5>
+<p class="card-text">Um blog interativo com dicas de cuidados, curiosidades e histórias engraçadas sobre cachorros, para amantes dos nossos melhores amigos de quatro patas.</p>
+<button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja o projeto</button>
+</div>
+</div>
+</div>
+
+<!-- Projeto 3 -->
+<div class="col-md-4">
+<div class="card">
+<img src="img/projeto3.png" class="card-img-top" alt="Imagem do projeto de humor">
+<div class="card-body">
+<h5 class="card-title">Coisas Engraçadas: Um Portal de Humor e Diversão</h5>
+<p class="card-text">Um espaço para compartilhar memes, vídeos e textos engraçados, para garantir boas risadas e momentos de descontração com amigos e família.</p>
+<button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja o projeto</button>
+</div>
+</div>
+</div>
+</div>
+</main>
+
+<!-- Modal 1 -->
+<div class="modal" id="modal1" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title">Explorando Stranger Things: Guia Interativo da Série</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+<p>Este projeto é um site criado para fãs de Stranger Things, contendo perfis detalhados dos personagens, resumos dos episódios e teorias de fãs. A ideia é criar uma comunidade interativa para os amantes da série discutirem suas cenas favoritas e novidades.</p>
+<p>O site usa HTML e CSS para estruturar e estilizar o conteúdo, com JavaScript para recursos interativos, como quizzes e galerias de imagens.</p>
+<img src="img/projeto1.jpeg" class="img-fluid w-100" alt="Imagem representativa do projeto Stranger Things">
+</div>
+<div class="modal-footer">
+<a href="#">Ver projeto ao vivo</a>
+<a href="#">Ver código do projeto</a>
+</div>
+</div>
+</div>
+</div>
+<!-- Modal 2 -->
+<div class="modal" id="modal2" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title">Cuidados e Curiosidades sobre Cachorros</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+<p>Um blog interativo dedicado a cachorros, com dicas sobre alimentação, saúde, comportamento e curiosidades divertidas. O objetivo é informar e entreter donos e fãs de cães, promovendo o bem-estar dos pets.</p>
+<p>O blog foi desenvolvido com HTML, CSS e JavaScript para uma navegação simples e responsiva, permitindo aos usuários interagir com posts e comentários.</p>
+<img src="img/projeto2.jpeg" class="img-fluid w-100" alt="Imagem representativa do projeto sobre cachorros">
+</div>
+<div class="modal-footer">
+<a href="#">Ver projeto ao vivo</a>
+<a href="#">Ver código do projeto</a>
 </div>
 </div>
 </div>
 </div>
 
+<!-- Modal 3 -->
+<div class="modal" id="modal3" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title">Coisas Engraçadas: Um Portal de Humor e Diversão</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+<p>Um portal para compartilhar os melhores memes, vídeos engraçados e piadas, criando um espaço de entretenimento leve e divertido para todas as idades. Ideal para descontrair e rir com amigos e familiares.</p>
+<p>O site utiliza recursos básicos de HTML, CSS e JavaScript para carregar conteúdos dinâmicos e manter a experiência divertida e interativa.</p>
+<img src="img/projeto3.png" alt="Projeto 3" class="img-fluid w-100">
+</div>
+<div class="modal-footer">
+<a href="#">Ver projeto ao vivo</a>
+</div>
+</div>
+</div>
+</div>
+<footer class="container py-5">
+<h2>Entre em contato</h2>
+<div>
+<i class="bi bi-github"></i>
+<a href="#">https://github.com/anadiniz9/</a>
+</div>
+<p class="my-5 text-center">© Copyright 2024. Produzido por Ana Clara Diniz</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
 </main>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
